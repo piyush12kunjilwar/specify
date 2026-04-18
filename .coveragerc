@@ -1,0 +1,15 @@
+[run]
+branch = True
+omit =
+    tests/*
+    */tests/*
+    setup.py
+
+[report]
+include =
+    chess_agent/*
+precision = 2
+show_missing = True
+
+[html]
+directory = htmlcov

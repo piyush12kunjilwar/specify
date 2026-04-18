@@ -1,0 +1,2 @@
+# Core chess logic and move validation
+chess>=1.10.0
