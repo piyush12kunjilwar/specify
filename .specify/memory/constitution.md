@@ -10,7 +10,7 @@ The agent MUST rely on continuous evaluation loops with rigorous board state man
         
 ### III. Computational Efficiency (NON-NEGOTIABLE)    
 Chess engines are computationally expensive. All move generation and evaluation functions MUST prioritize efficient data structures and optimal time complexity. Whether traversing decision trees or evaluating board positions, algorithms must remain tightly optimized to prevent the terminal from freezing during agent calculations.
-
+   
 ### IV. Swappable Decision Engine
 The decision-making module MUST be designed for easy substitution. Code structure MUST allow an external Large Language Model or a more complex autonomous workflow to be plugged in later without disrupting existing implementation. The evaluation interface must remain stable.
 
