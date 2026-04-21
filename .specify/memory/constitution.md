@@ -3,7 +3,7 @@
 ## Core Principles
 
 ### I. Decoupled Architecture
-The agent's "brain" must be completely decoupled from the terminal interface. The game loop, the player input handling, and the agent's evaluation engine MUST operate as distinct modules. This approach ensures that if the engine is eventually wrapped in a REST API, deployed as a microservice, or the terminal is swapped for a web UI, the core logic remains unchanged.
+The agent's "brain" must be completely decoupled from the terminal interface. The game loop, the player input handling, and the agent's evaluation engine MUST operate as distinct modules. This approach ensures that if the engine is eventually wrapped in a REST API, deployed as a microservice, or the terminal is swapped for a web UI, the core logic remains unchanged.   
 
 ### II. Safe Board State Management  
 The agent MUST rely on continuous evaluation loops with rigorous board state management. When the agent calculates future moves (looking ahead multiple turns), it MUST operate on isolated copies of the board state or safely use python-chess operations. The actual live game state must never be accidentally mutated during evaluation.   
