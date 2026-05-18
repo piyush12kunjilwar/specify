@@ -14,7 +14,7 @@ Build a modular, production-quality autonomous chess agent that plays complete c
 **Storage**: In-memory game state with optional PGN file export  
 **Testing**: pytest with pytest-cov for coverage tracking       
 **Target Platform**: Cross-platform CLI + programmatic Python API    
-**Project Type**: Hybrid library/CLI tool     
+**Project Type**: Hybrid library/CLI tool        
 **Performance Goals**: Move evaluation < 2 seconds for opening/middlegame positions, move generation < 100ms  
 **Constraints**: Zero board state mutations during lookahead evaluation, 90% code coverage minimum  
 **Scale/Scope**: Single autonomous agent, supports up to 100+ move game histories  
