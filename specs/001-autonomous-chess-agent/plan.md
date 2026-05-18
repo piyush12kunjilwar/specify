@@ -9,7 +9,7 @@ Build a modular, production-quality autonomous chess agent that plays complete c
   
 ## Technical Context   
   
-**Language/Version**: Python 3.9+  
+**Language/Version**: Python 3.9+     
 **Primary Dependencies**: python-chess 1.9.4+, (testing: pytest, mocking: pytest-mock)  
 **Storage**: In-memory game state with optional PGN file export  
 **Testing**: pytest with pytest-cov for coverage tracking  
