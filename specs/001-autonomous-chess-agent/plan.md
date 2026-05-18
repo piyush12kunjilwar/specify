@@ -17,7 +17,7 @@ Build a modular, production-quality autonomous chess agent that plays complete c
 **Project Type**: Hybrid library/CLI tool  
 **Performance Goals**: Move evaluation < 2 seconds for opening/middlegame positions, move generation < 100ms  
 **Constraints**: Zero board state mutations during lookahead evaluation, 90% code coverage minimum  
-**Scale/Scope**: Single autonomous agent, supports up to 100+ move game histories
+**Scale/Scope**: Single autonomous agent, supports up to 100+ move game histories  
 
 ## Constitution Check
 
