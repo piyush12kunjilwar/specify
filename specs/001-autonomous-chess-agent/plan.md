@@ -3,7 +3,7 @@
 **Branch**: `001-autonomous-chess-agent` | **Date**: 2026-04-17 | **Spec**: [spec.md](spec.md)
 **Input**: Feature specification from `/specs/001-autonomous-chess-agent/spec.md`
   
-## Summary
+## Summary   
 
 Build a modular, production-quality autonomous chess agent that plays complete chess games using python-chess with a decoupled architecture supporting swappable decision engines, safe board state management during lookahead evaluation, and comprehensive test coverage for move validation and edge cases. The system will provide both CLI and programmatic Python API interfaces with move evaluation completing in under 2 seconds.
   
