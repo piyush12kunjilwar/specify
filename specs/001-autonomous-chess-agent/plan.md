@@ -22,7 +22,7 @@ Build a modular, production-quality autonomous chess agent that plays complete c
 ## Constitution Check
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
-
+  
 ### ✓ Decoupled Architecture
 - **Requirement**: Game loop, player input handling, and evaluation engine must be distinct modules
 - **Design Response**: Separate `game_engine`, `cli`, and `decision_engine` modules with clean interfaces
